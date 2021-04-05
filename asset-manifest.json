@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Countries-API/static/css/main.4fe5178c.chunk.css",
-    "main.js": "/React-Countries-API/static/js/main.f65e2fe6.chunk.js",
-    "main.js.map": "/React-Countries-API/static/js/main.f65e2fe6.chunk.js.map",
+    "main.js": "/React-Countries-API/static/js/main.530912d5.chunk.js",
+    "main.js.map": "/React-Countries-API/static/js/main.530912d5.chunk.js.map",
     "runtime-main.js": "/React-Countries-API/static/js/runtime-main.00f0c56d.js",
     "runtime-main.js.map": "/React-Countries-API/static/js/runtime-main.00f0c56d.js.map",
     "static/js/2.f4a38153.chunk.js": "/React-Countries-API/static/js/2.f4a38153.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.00f0c56d.js",
     "static/js/2.f4a38153.chunk.js",
     "static/css/main.4fe5178c.chunk.css",
-    "static/js/main.f65e2fe6.chunk.js"
+    "static/js/main.530912d5.chunk.js"
   ]
 }
