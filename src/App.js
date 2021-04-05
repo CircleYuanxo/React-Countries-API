@@ -44,7 +44,7 @@ function App() {
 
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.REACT_PUBLIC_URL}>
         <Header handleThemeChange={handleThemeChange} color={color}/>
         <Switch>
           <Route exact path="/">
