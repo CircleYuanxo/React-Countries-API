@@ -47,10 +47,10 @@ function App() {
     <Router basename={process.env.REACT_PUBLIC_URL}>
         <Header handleThemeChange={handleThemeChange} color={color}/>
         <Switch>
-          <Route exact path={process.env.PUBLIC_URL + '/'}>
+          <Route exact path={process.env.REACT_PUBLIC_URL + '/'}>
             <Homepage countries={countries} color={color}/>
           </Route>
-          <Route exact path={process.env.PUBLIC_URL + '/:alphaCode'}>
+          <Route exact path={process.env.REACT_PUBLIC_URL + '/:alphaCode'}>
             <Detailpage countries={countries} color={color}/>
           </Route>
         </Switch>
