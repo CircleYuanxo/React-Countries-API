@@ -62,7 +62,7 @@ function Detailpage( { color} ) {
              <div className='countrydetail__content__description'>
                <div>
                  <p><span>Native Name: </span>{country.nativeName}</p>
-                 <p><span>Population: </span>{country.length !== 0 && country.population}</p>
+                 <p><span>Population: </span>{country.length !== 0 && country.population.toLocaleString()}</p>
                  <p><span>Region: </span>{country.region}</p>
                  <p><span>Sub Region: </span>{country.subregion}</p>
                  <p><span>Capital: </span>{country.capital}</p>
