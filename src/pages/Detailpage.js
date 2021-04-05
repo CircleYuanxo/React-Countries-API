@@ -47,7 +47,7 @@ function Detailpage( { color} ) {
     <Fragment>
       {isLoading && <div style={{background:color.background, color:color.color}} className='isLoading'>Loading...</div>}
       <div className='detailpage' style={{background:color.background, color:color.color}}>
-       <Link to='/'>
+       <Link to={process.env.REACT_PUBLIC_URL + '/'}>
         <button className='button__back' style={{background:color.element, color:color.color}}>
           <FontAwesomeIcon icon={faArrowLeft}/>　Back
         </button>
@@ -82,7 +82,7 @@ function Detailpage( { color} ) {
                {countryBorders && countryBorders.map((border)=>{
                  const nameCountryBorders = countries.find(country => country.alpha3Code === border)
                  if (nameCountryBorders) return (
-                   <Link to={`/${border}`} key={border}><button style={{background:color.element, color:color.color}}>{nameCountryBorders.name}</button></Link>
+                   <Link to={process.env.REACT_PUBLIC_URL + `/${border}`} key={border}><button style={{background:color.element, color:color.color}}>{nameCountryBorders.name}</button></Link>
                  )
                })}
             </div>
